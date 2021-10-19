@@ -1,0 +1,38 @@
+{
+  "files": {
+    "main.css": "/react-portfolio/static/css/main.c98a5d91.chunk.css",
+    "main.js": "/react-portfolio/static/js/main.92a4745c.chunk.js",
+    "main.js.map": "/react-portfolio/static/js/main.92a4745c.chunk.js.map",
+    "runtime-main.js": "/react-portfolio/static/js/runtime-main.69c31692.js",
+    "runtime-main.js.map": "/react-portfolio/static/js/runtime-main.69c31692.js.map",
+    "static/css/2.c1256375.chunk.css": "/react-portfolio/static/css/2.c1256375.chunk.css",
+    "static/js/2.f32e4170.chunk.js": "/react-portfolio/static/js/2.f32e4170.chunk.js",
+    "static/js/2.f32e4170.chunk.js.map": "/react-portfolio/static/js/2.f32e4170.chunk.js.map",
+    "static/js/3.8f46cb22.chunk.js": "/react-portfolio/static/js/3.8f46cb22.chunk.js",
+    "static/js/3.8f46cb22.chunk.js.map": "/react-portfolio/static/js/3.8f46cb22.chunk.js.map",
+    "index.html": "/react-portfolio/index.html",
+    "static/css/2.c1256375.chunk.css.map": "/react-portfolio/static/css/2.c1256375.chunk.css.map",
+    "static/css/main.c98a5d91.chunk.css.map": "/react-portfolio/static/css/main.c98a5d91.chunk.css.map",
+    "static/js/2.f32e4170.chunk.js.LICENSE.txt": "/react-portfolio/static/js/2.f32e4170.chunk.js.LICENSE.txt",
+    "static/media/Resume.1ae2ef93.pdf": "/react-portfolio/static/media/Resume.1ae2ef93.pdf",
+    "static/media/About.css": "/react-portfolio/static/media/background2.b9be2193.png",
+    "static/media/budget-tracker.da62e9be.gif": "/react-portfolio/static/media/budget-tracker.da62e9be.gif",
+    "static/media/cocktail.6696a66b.gif": "/react-portfolio/static/media/cocktail.6696a66b.gif",
+    "static/media/Home.css": "/react-portfolio/static/media/console.a9c210a7.gif",
+    "static/media/Contact.css": "/react-portfolio/static/media/contact.1cecd5bf.png",
+    "static/media/fitness-tracker.f349264b.gif": "/react-portfolio/static/media/fitness-tracker.f349264b.gif",
+    "static/media/granny-crush.c84509ff.gif": "/react-portfolio/static/media/granny-crush.c84509ff.gif",
+    "static/media/portfolio.7db48af6.jpg": "/react-portfolio/static/media/portfolio.7db48af6.jpg",
+    "static/media/Projects.css": "/react-portfolio/static/media/projectsbg.a46a0ee5.png",
+    "static/media/Resume.css": "/react-portfolio/static/media/resumebg.f5955bd8.png",
+    "static/media/tech-blog.acfa1f41.gif": "/react-portfolio/static/media/tech-blog.acfa1f41.gif",
+    "static/media/weather.cbc7b32c.gif": "/react-portfolio/static/media/weather.cbc7b32c.gif"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.69c31692.js",
+    "static/css/2.c1256375.chunk.css",
+    "static/js/2.f32e4170.chunk.js",
+    "static/css/main.c98a5d91.chunk.css",
+    "static/js/main.92a4745c.chunk.js"
+  ]
+}
