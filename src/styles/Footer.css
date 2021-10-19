@@ -1,0 +1,38 @@
+footer {
+    height: 30vh;
+    background-color: #fafafa;
+    box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+}
+
+.footerContent {
+    text-align: center!important;
+}
+
+.footer-wrapper {
+    margin-left: auto;
+    margin-right: auto;
+    width: 95%;
+}
+
+.paperImage {
+    width: 100%;
+    position: absolute;
+    left: 0;
+    top: 0px;
+    z-index:3; 
+}
+
+.FooterHeader {
+    font-size: 40px!important;
+    margin-top: 30px!important;
+}
+
+.footer-icon {
+    color: grey;
+    margin: 20px;
+    transition: 0.3s;
+}
+
+.footer-icon:hover {
+    color: #ffb20a;
+}

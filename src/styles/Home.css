@@ -1,0 +1,177 @@
+.homePage {
+  height: 100vh;
+  background-image: url(../assets/images/console.gif);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: top;
+  position: relative;
+  overflow: hidden;
+  z-index: 1;
+  box-shadow: inset 0px 11px 8px -10px rgb(0, 0, 0),
+    inset 0px -11px 8px -10px rgb(0, 0, 0);
+}
+
+.home-text-Container {
+  width: 95%;
+  height: 95%;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+.mountainImage {
+  width: 100%;
+  position: absolute;
+  left: 0;
+  bottom: 0px;
+  z-index: 3;
+}
+
+/* Type write animation */
+.type-write-wrapper {
+  padding: 30px !important;
+  height: 300px;
+  z-index: 1;
+  margin-top: 220px !important;
+  box-shadow: 0 5px 15px rgb(0, 0, 0, 0.5);
+  border-radius: 5px;
+  background: rgba(255, 255, 255, 0.4);
+}
+
+@supports (-webkit-backdrop-filter: none) or (backdrop-filter: none) {
+  .type-write-wrapper {
+    -webkit-backdrop-filter: blur(10px);
+    backdrop-filter: blur(10px);
+  }
+}
+
+.line-1 {
+  font-size: 70px !important;
+  margin: 0 auto;
+  color: #ffb20a !important;
+  width: 6em;
+  border-right: 2px solid rgba(255, 255, 255, 0.75);
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+.anim-typewriter {
+  animation: typewriter 2s steps(25) 1s 1 normal both,
+    blinkTextCursor 500ms steps(25) infinite normal;
+}
+
+@keyframes typewriter {
+  from {
+    width: 0;
+  }
+  to {
+    width: 6em;
+  }
+}
+@keyframes blinkTextCursor {
+  from {
+    border-right-color: rgba(255, 255, 255, 0.75);
+  }
+  to {
+    border-right-color: transparent;
+  }
+}
+
+.line-2 {
+  font-size: 70px !important;
+  margin: 0 auto;
+  color: #ffb20a !important;
+  width: 6em;
+  border-right: 2px solid rgba(255, 255, 255, 0.75);
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+.span-line2 {
+  color: #000000;
+}
+
+.anim-typewriter2 {
+  animation: typewriter2 2s steps(44) 1s 1 normal both,
+    blinkTextCursor2 500ms steps(44) infinite normal;
+}
+
+@keyframes typewriter2 {
+  from {
+    width: 0;
+  }
+  to {
+    width: 6em;
+  }
+}
+
+@keyframes blinkTextCursor2 {
+  from {
+    border-right-color: rgba(255, 255, 255, 0.75);
+  }
+  to {
+    border-right-color: transparent;
+  }
+}
+
+.line-3 {
+  font-size: 35px !important;
+  color: #000000 !important;
+  width: 15em;
+  margin: 0 auto;
+  border-right: 2px solid rgba(255, 255, 255, 0.75);
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+.anim-typewriter3 {
+  animation: typewriter3 2s steps(44) 1s 1 normal both,
+    blinkTextCursor3 500ms steps(44) infinite normal;
+}
+
+@keyframes typewriter3 {
+  from {
+    width: 0;
+  }
+  to {
+    width: 15em;
+  }
+}
+
+@keyframes blinkTextCursor3 {
+  from {
+    border-right-color: rgba(255, 255, 255, 0.75);
+  }
+  to {
+    border-right-color: transparent;
+  }
+}
+
+/* Responsive Layout: */
+
+@media (max-width: 620px) {
+  .line-2,
+  .line-1 {
+    font-size: 55px !important;
+  }
+
+  .line-3 {
+    font-size: 25px !important;
+  }
+
+  .type-write-wrapper {
+    height: 250px;
+  }
+}
+
+@media (max-width: 420px) {
+  .line-2,
+  .line-1 {
+    font-size: 45px !important;
+  }
+
+  .line-3 {
+    font-size: 20px !important;
+  }
+}

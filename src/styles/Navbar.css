@@ -1,0 +1,48 @@
+header {
+  background-color: white;
+  box-shadow: 0px 15px 10px -15px #111;
+  padding-top: 10px !important;
+}
+
+.active-link {
+  color: rgb(31, 31, 31) !important;
+  font-weight: bold !important;
+}
+
+.nav-item a {
+  font-size: 25px !important;
+  color: rgb(144, 149, 243);
+}
+
+.nav-name {
+  justify-content: start !important;
+  font-size: 30px !important;
+}
+
+.navbar-brand {
+  color: #ffb20a;
+  font-size: 40px !important;
+  padding-left: 30px !important;
+}
+
+@media (max-width: 570px) {
+  .nav-item a {
+    font-size: 20px !important;
+  }
+}
+
+@media (max-width: 495px) {
+  .nav-item a {
+    font-size: 15px !important;
+  }
+
+  .navbar-brand {
+    font-size: 25px !important;
+  }
+}
+
+@media (max-width: 430px) {
+  .nav-item a {
+    font-size: 10px !important;
+  }
+}

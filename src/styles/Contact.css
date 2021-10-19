@@ -1,0 +1,94 @@
+.contactPage {
+  height: 100%;
+  margin-top: 180px;
+  background-image: url(../assets/images/contact.png);
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  padding-bottom: 50px;
+}
+
+.contact-wrapper {
+  width: 95% !important;
+  margin-right: auto;
+  margin-left: auto;
+  text-align: center;
+}
+
+.glass-container {
+  box-shadow: 0 5px 15px rgba(179, 179, 179, 0.5);
+  border-radius: 5px;
+  background: rgba(255, 255, 255, 0.4);
+  padding: 20px !important;
+  z-index: 3;
+  width: 60% !important;
+}
+
+@supports (-webkit-backdrop-filter: none) or (backdrop-filter: none) {
+  .glass-container {
+    -webkit-backdrop-filter: blur(10px);
+    backdrop-filter: blur(5px);
+  }
+}
+
+.contact-header-container {
+  margin-bottom: 100px;
+}
+
+.contact-header {
+  font-size: 60px !important;
+  border-bottom: solid 4px #ffb20a;
+}
+
+label {
+  font-size: 20px !important;
+  padding-top: 20px;
+}
+
+form {
+  width: 90% !important;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: left;
+}
+
+.form-btn {
+  margin-top: 20px;
+}
+
+.error-text {
+  color: red;
+}
+
+p {
+  font-size: 20px !important;
+}
+
+.contact-icon {
+  color: black !important;
+  transition: 0.3s;
+}
+
+.contact-icon:hover {
+  color: #ffb20a !important;
+}
+
+.container-contact-icons {
+  padding-top: 20px;
+}
+
+@media (max-width: 1250px) {
+  .glass-container {
+    width: 80% !important;
+  }
+}
+
+@media (max-width: 500px) {
+  p {
+    font-size: 14px !important;
+  }
+
+  .glass-container {
+    width: 90% !important;
+  }
+}

@@ -1,0 +1,49 @@
+.projectsPage {
+  height: 100%;
+  margin-top: 180px;
+  background-image: url(../assets/images/projectsbg.png);
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  padding-bottom: 50px;
+}
+
+.projects-wrapper {
+  width: 95% !important;
+  margin-right: auto;
+  margin-left: auto;
+  text-align: center;
+}
+
+.projects-header-container {
+  margin-bottom: 100px;
+}
+
+.projects-header {
+  font-size: 60px !important;
+  border-bottom: solid 4px #ffb20a;
+}
+
+.card {
+  width: 400px !important;
+  margin: 30px !important;
+}
+
+.project-card {
+  margin: 20px !important;
+  margin-right: 0px !important;
+}
+
+.btn-project {
+  margin: 5px !important;
+  background-color: #ffb20a !important;
+  transition: 0.3s;
+}
+
+.btn-project:hover {
+  background-color: rgb(144, 149, 243) !important;
+}
+
+.card-text {
+  font-size: 15px !important;
+}

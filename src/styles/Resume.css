@@ -1,0 +1,71 @@
+.resumePage {
+  height: 100%;
+  margin-top: 180px;
+  background-image: url(../assets/images/resumebg.png);
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  padding-bottom: 50px;
+}
+
+.resume-wrapper {
+  width: 95% !important;
+  margin-right: auto;
+  margin-left: auto;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.resume-header-container {
+  margin-bottom: 50px;
+}
+
+.resume-header {
+  font-size: 60px !important;
+  border-bottom: solid 4px #ffb20a;
+}
+
+.glass-container {
+  box-shadow: 0 5px 15px rgba(179, 179, 179, 0.5);
+  border-radius: 5px;
+  background: rgba(255, 255, 255, 0.4);
+  padding: 20px !important;
+  z-index: 3;
+}
+
+@supports (-webkit-backdrop-filter: none) or (backdrop-filter: none) {
+  .glass-container {
+    -webkit-backdrop-filter: blur(10px);
+    backdrop-filter: blur(5px);
+  }
+}
+
+.download-a {
+  color: black !important;
+  text-decoration: none !important;
+  font-size: 25px !important;
+}
+
+.download-a:hover {
+  color: #9c6b00 !important;
+}
+
+.download-icon {
+  color: black !important;
+  padding-right: 10px !important;
+}
+
+.proficiencies-header-container {
+  margin-top: 50px !important;
+  margin-bottom: 50px !important;
+}
+
+.proficiencies-header {
+  font-size: 40px !important;
+  border-bottom: solid 4px #ffb20a;
+}
+
+h1 {
+  font-size: 30px !important;
+  margin-bottom: 40px;
+}

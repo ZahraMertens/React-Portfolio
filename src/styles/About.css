@@ -1,0 +1,90 @@
+.aboutPage {
+  height: 100%;
+  margin-top: 180px;
+  background-image: url(../assets/images/background2.png);
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  padding-bottom: 50px;
+}
+
+.about-wrapper {
+  width: 95% !important;
+  margin-right: auto;
+  margin-left: auto;
+  text-align: center;
+}
+
+.about-header-container {
+  margin-bottom: 100px;
+}
+
+.about-header {
+  font-size: 60px !important;
+  border-bottom: solid 4px #ffb20a;
+}
+
+.allIcons-container {
+  width: 60% !important;
+}
+
+.skill-icon {
+  color: #ffb20a;
+}
+
+.icon-text-div {
+  margin-top: 30px;
+}
+
+.icon-header {
+  font-size: 25px;
+}
+
+.about-container {
+  padding: 50px !important;
+  width: 90% !important;
+  margin-top: 20px !important;
+  z-index: 2;
+}
+
+.about-text {
+  font-size: 24px !important;
+}
+
+.glass-container {
+  box-shadow: 0 5px 15px rgba(179, 179, 179, 0.5);
+  border-radius: 5px;
+  background: rgba(255, 255, 255, 0.4);
+  padding: 20px !important;
+  z-index: 3;
+}
+
+.about-portrait {
+  width: 400px;
+}
+
+@supports (-webkit-backdrop-filter: none) or (backdrop-filter: none) {
+  .glass-container {
+    -webkit-backdrop-filter: blur(10px);
+    backdrop-filter: blur(5px);
+  }
+}
+
+.about-span {
+  background-color: #ffe9b7 !important;
+}
+
+.portait {
+  width: 300px !important;
+  border-radius: 10px;
+}
+
+.container-portrait {
+  padding: 0px !important;
+}
+
+@media (max-width: 1097px) {
+  .allIcons-container {
+    width: 90% !important;
+  }
+}
