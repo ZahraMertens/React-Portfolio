@@ -40,7 +40,7 @@ The portfolio displays useful data, showcases skills and technologies of the web
 
 The following GIF shows the web applications apperance and functionality:
 
-![portfolio-demo]()
+![portfolio-demo](./public/readmegif.gif)
 
 ## Credits
 
