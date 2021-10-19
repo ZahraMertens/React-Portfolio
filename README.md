@@ -3,10 +3,10 @@
 
 ## General Information
 
-The deployed webpage is my professional portfolio as a web developer to introduce myself, showcase my skills and give a possible employer the opportunity to contact me via the available social media platforms or email.
+The deployed webpage is my professional portfolio as a web developer to introduce myself, showcase my skills and give a possible employer the opportunity to contact me via the available social media platforms or email. The web application is build with the React.js framework and is split in components in order to make the app more reusable.
 
-* [Deployed URL of my Portfolio]()
-* [URL of the GitHub Repo]()
+* [Deployed URL of my Portfolio](https://zahramertens.github.io/react-portfolio/)
+* [URL of the GitHub Repo](https://github.com/ZahraMertens/react-portfolio.git)
 
 ## Table if Contents
 1. [General Information](#general-informaion)
